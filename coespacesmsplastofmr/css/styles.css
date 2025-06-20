@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* Homepage specific */
+.home-page {
+    background-color: #f8f9fa;
+}
+
+/* Quote page styling */
+.quote-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.lead-id-badge {
+    background: #e9f2fe;
+    color: #0d6efd;
+    border-radius: 30px;
+    padding: 0.3rem 1rem;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.section-title {
+    color: #0d6efd;
+    border-bottom: 2px solid #e9f2fe;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.vehicle-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #0d6efd;
+    transition: all 0.3s ease;
+}
+
+.vehicle-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.driver-card {
+    background: #f5f9ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    border-left: 4px solid #20c997;
+    transition: all 0.3s ease;
+}
+
+.driver-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.pending-box {
+    background: #fff8e6;
+    border-left: 5px solid #ffc107;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.call-btn {
+    background: #28a745;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    padding: 1rem 2.5rem;
+    box-shadow: 0 5px 15px rgba(40,167,69,0.3);
+    transition: all 0.3s;
+    border: none;
+    animation: pulse 2s infinite;
+}
+
+.call-btn:hover {
+    background: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(40,167,69,0.4);
+    color: white;
+}
+
+.discount-badge {
+    background: #e9f7f0;
+    color: #20c997;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    margin-bottom: 0.8rem;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.highlight-section {
+    border: 2px dashed #ffc107;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 10px;
+    background: #fffdf5;
+}
+
+.expiry-timer {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #dc3545;
+    margin: 1rem 0;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
